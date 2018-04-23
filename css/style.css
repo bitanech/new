@@ -1,0 +1,82 @@
+/* Шрифты */
+
+/* Gilroy Extra Bold */
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    font-style: normal;
+    src: local('Gilroy Extrabold'),
+         local('Gilroy-Extrabold'),
+         url('../fonts/gilroyextrabold.woff2')
+            format('woff2'),
+         url('../fonts/gilroyextrabold.woff')
+            format('woff');
+}
+
+/* Gilroy Light */
+
+@font-face {
+    font-family: 'Gilroy Light';
+    font-style: normal;
+    src: local('Gilroy Light'),
+         local('Gilroy-Light'),
+         url('../fonts/gilroylight.woff2')
+            format('woff2'),
+         url('../fonts/gilroylight.woff')
+            format('woff');
+}
+
+/* Open Sans */
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    src: local('Open Sans'),
+         local('Open-Sans'),
+         url('../fonts/opensans.woff2')
+            format('woff2'),
+         url('../fonts/opensans.woff')
+            format('woff');
+}
+
+/* Open Sans Light*/
+
+@font-face {
+    font-family: 'Open Sans Light';
+    font-style: normal;
+    src: local('Open Sanslight'),
+         local('Open Sanslight'),
+         url('../fonts/opensanslight.woff2')
+            format('woff2'),
+         url('../fonts/opensanslight.woff')
+            format('woff');
+}
+
+/* Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family:  'Gilroy Bold',Arial, sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.site-name {
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 48px;
+
+}
+
+.container {
+    width: 1200px;
+    margin: ;
+}
